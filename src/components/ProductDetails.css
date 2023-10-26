@@ -1,0 +1,38 @@
+/* ProductDetails.css */
+
+.product-details {
+    padding: 20px;
+  }
+  
+  .main-image {
+    width: 400px;
+    height: 400;
+  }
+  
+  .thumbnail-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .thumbnail {
+    max-width: 80px;
+    height: auto;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .product-info {
+    padding: 20px;
+  }
+  
+  .quantity {
+    margin: 0 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .product-details {
+      padding: 10px;
+    }
+  }
+  
